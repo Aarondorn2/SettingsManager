@@ -72,12 +72,12 @@ public static class SettingsManager
     /// <param name="cryptographyProvider"></param>
     public static void Init(
         IPersistenceProvider persistenceProvider,
-        JsonSerializerOptions serializerOptions,
-        ICryptographyProvider? cryptographyProvider = null
+        ICryptographyProvider? cryptographyProvider = null,
+        JsonSerializerOptions? serializerOptions = null
     )
     {
         PersistenceProvider = persistenceProvider;
-        SerializerOptions = serializerOptions;
         CryptographyProvider = cryptographyProvider;
+        SerializerOptions = serializerOptions ?? JsonSerializerOptions.Default;
     }
 }
