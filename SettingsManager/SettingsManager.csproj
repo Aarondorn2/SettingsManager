@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <WarningsAsErrors>Nullable</WarningsAsErrors>
+        <LangVersion>11</LangVersion>
+        <RootNamespace>Noogadev.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+
+        <PackageId>SerializedSettingsManager</PackageId>
+        <Version>0.1.0</Version>
+        <Authors>Aaron Heidorn</Authors>
+        <PackageTags>settings,features,configuration</PackageTags>
+        <Title>SettingsManager</Title>
+        <Description>
+            SettingsManager is a pattern storing settings as serialized objects. It supports encryption of settings on a property-level. It does not provide a persistence medium, so you must implement this piece yourself.
+        </Description>
+        <RepositoryUrl>https://github.com/Aarondorn2/SettingsManagement</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Copyright>Copyright © Aaron Heidorn 2023</Copyright>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Text.Json" Version="8.0.0" />
+    </ItemGroup>
+
+</Project>
