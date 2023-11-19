@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
-using SettingsManager.Models;
+using Noogadev.SettingsManager.Models;
 
-namespace SettingsManager;
+namespace Noogadev.SettingsManager;
 
 /// <summary>
 /// This implementation provides all the functionality needed to interact with settings, configs,

@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SettingsManager.Models;
+namespace Noogadev.SettingsManager.Models;
 
 /// <summary>
 /// This class is just provided as an example to show how settings (and configs)

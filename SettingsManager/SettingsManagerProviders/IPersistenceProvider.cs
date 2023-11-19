@@ -1,4 +1,4 @@
-﻿namespace SettingsManager.SettingsManagerProviders;
+﻿namespace Noogadev.SettingsManager.SettingsManagerProviders;
 
 /// <summary>
 /// This interface provides a way for you to define how and where your settings

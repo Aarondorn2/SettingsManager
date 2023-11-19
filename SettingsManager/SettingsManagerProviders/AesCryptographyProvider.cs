@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography;
 
-namespace SettingsManager.SettingsManagerProviders;
+namespace Noogadev.SettingsManager.SettingsManagerProviders;
 
 /// <summary>
 /// This implementation provides nearly everything needed to encrypt and decrypt

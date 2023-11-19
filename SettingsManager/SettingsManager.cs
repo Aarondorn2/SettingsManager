@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
-using SettingsManager.SettingsManagerProviders;
+using Noogadev.SettingsManager.SettingsManagerProviders;
 
-namespace SettingsManager;
+namespace Noogadev.SettingsManager;
 
 /// <summary>
 /// This class is effectively a dependency injection wrapper. The <see cref="Init"/> method is required

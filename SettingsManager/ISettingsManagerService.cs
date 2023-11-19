@@ -1,6 +1,6 @@
-﻿using SettingsManager.Models;
+﻿using Noogadev.SettingsManager.Models;
 
-namespace SettingsManager;
+namespace Noogadev.SettingsManager;
 
 /// <summary>
 /// This interface defines the methods available in the SettingsManagerService. These methods

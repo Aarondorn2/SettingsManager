@@ -1,6 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace SettingsManager.SettingsManagerProviders;
+namespace Noogadev.SettingsManager.SettingsManagerProviders;
 
 /// <summary>
 /// This class provides an implementation of <see cref="IPersistenceProvider"/> that simply

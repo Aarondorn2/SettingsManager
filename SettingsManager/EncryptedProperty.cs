@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace SettingsManager;
+namespace Noogadev.SettingsManager;
 
 /// <summary>
 /// Some setting and config properties are sensitive and should not be persisted in plain text.

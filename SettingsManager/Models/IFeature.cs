@@ -1,4 +1,4 @@
-﻿namespace SettingsManager.Models;
+﻿namespace Noogadev.SettingsManager.Models;
 
 /// <summary>
 /// This interface is used to differentiate your class as a feature
